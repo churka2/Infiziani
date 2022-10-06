@@ -1,0 +1,89 @@
+.foot {
+    background: #222730;
+}
+
+.foot__wrap {
+    padding-top: 130px;
+    padding-bottom: 47px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.foot__txt {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #999999;
+    margin-top: 23px;
+}
+
+.menu__items {
+    display: flex;
+    flex-direction: column;
+    gap: 17px
+}
+
+.foot__h6 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: white;
+    margin-bottom: 6px;
+}
+
+.foot__link {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #999999
+}
+
+.other__pages {
+    display: flex;
+    flex-direction: column;
+    gap: 17px
+}
+
+.icons {
+    display: flex;
+    gap: 16px;
+
+}
+
+.foot__icon {
+    color: #999999;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.foot__icon:hover {
+    color: white
+}
+
+.foot__link:hover {
+    color: white
+}
+
+.foot__wrap::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: #3E3E3E;
+    bottom: 0;
+}
+
+.foot__foot {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    color: #899999;
+    padding-top: 48px;
+    padding-bottom: 61px;
+}

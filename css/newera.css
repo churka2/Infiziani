@@ -1,0 +1,77 @@
+.newera {
+    background: #000;
+}
+
+.newera__wrap {
+    padding-top: 174px;
+    padding-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newera__left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.slogan{
+    margin-left: 40px;
+}
+
+.newera__h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    color: white;
+    margin-top: 22px;
+}
+
+.newera__txt {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #DFDFDFCC;
+    margin-top: 38px;
+    margin-bottom: 54px;
+}
+
+.newera__btn {
+    padding: 21px 34px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    background: transparent;
+    transition: 0.25s
+}
+
+.newera__btn:hover{
+    background: #57B8FF;
+}
+
+.newera__vid{
+    position: relative;
+}
+
+.newera__vid::after{
+    content: "";
+    position: absolute;
+    background: url(../img/neweraVID__btn.svg);
+    width: 129px;
+    height: 129px;
+    left: 246px;
+    transform: translate(-50%,-50%);
+    top: 275px;
+    transition: 0.25s
+}
+
+.newera__vid:hover:after {
+    transform: scale(0.95) translate(-50%,-50%);
+}
+

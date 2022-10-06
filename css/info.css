@@ -1,0 +1,98 @@
+.info {
+    background: rgb(54, 64, 82);
+    height: 732px;
+}
+
+.info__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.block__txt {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding: 40px;
+    backdrop-filter: blur(40px);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.block {
+    width: 480px;
+    max-height: 732px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.block1 {
+    background: url(../img/block1.jpg) no-repeat;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s
+}
+
+.main__h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+}
+
+.block__main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: 0.5s
+}
+
+.block__main1{
+    background: url(../img/firstblock.png);
+}
+
+.block1:hover .block__main1 {
+    transform: translateY(-110%);
+}
+
+
+
+.block2 {
+    background: url(../img/block2.jpg) no-repeat center;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s
+}
+
+.block__main2{
+    background:url(../img/secondblock.png);
+}
+
+.block2:hover .block__main2 {
+    transform: translateY(-110%);
+}
+
+.block3 {
+    background: url(../img/block3.jpg) no-repeat center;
+    position: relative;
+    z-index: 1;
+    transition: 0.3s
+}
+
+.block__main3{
+    background:url(../img/thirdblock.png);
+}
+
+.block3:hover .block__main3 {
+    transform: translateY(-110%);
+}

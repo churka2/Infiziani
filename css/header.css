@@ -1,0 +1,204 @@
+    .head {
+    background: url(../img/headback.png) no-repeat center/cover,
+        linear-gradient(0deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.container {
+    position: relative;
+    height: 100%;
+}
+
+.container::after {
+    content: "";
+    position: absolute;
+    background: url(../img/blueback.png);
+    height: 100%;
+    left: 56.5%;
+    width: 10000px;
+    top:0;
+    z-index: -1;
+}
+
+.header__main{
+   padding-top: 20px;
+   padding-bottom: 250px;
+}
+
+.head__leftmenu {
+    height: 1069px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-left: -50px;
+}
+
+.leftmenu__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    transform: rotate(-90deg);
+}
+
+.leftmenu__link {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #80858F;
+}
+
+.leftmenu__link:hover {
+    color: #FAC422
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head__menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.head__link {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: white
+}
+
+.head__link:hover {
+    color: #FAC422
+}
+
+.head__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.head__cart {
+    position: relative;
+}
+
+.head__cart::after {
+    content: "0";
+    position: absolute;
+    background: #fff;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    color: black;
+    padding: 0 6px;
+    border-radius: 9px;
+    top: 0;
+    right: -10px;
+    transform: translate(50%, -50%);
+}
+
+.head__contact {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #fff;
+    padding: 16px 31px;
+    background: transparent;
+    border: 1px solid white;
+    transition: 0.25s ease;
+}
+
+.head__contact:hover {
+    transform: scale(0.9);
+}
+
+.underheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 233px;
+}
+
+.underheader__slogan {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #57B8FF;
+    margin-left: 40px;
+    position: relative;
+}
+
+.underheader__slogan::before{
+    content: "";
+    position: absolute;
+    background: url(../img/sloganfire.svg);
+    width: 32px;
+    height: 32px;
+    left: -40px;
+    top: -10px;
+    
+}
+
+.underheader__h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 86px;
+    color: #fff;
+    margin-top: 24px;
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.underheader__h1::after{
+    content: "";
+    position: absolute;
+    background: url(../img/underheaderLINE.svg);
+    width: 434px;
+    height: 16px;
+    right: 15px;
+}
+
+.underheader__info {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #999999;
+    margin-bottom: 53px;
+}
+
+.underheader__btn {
+    padding: 21px 34px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    background: transparent;
+    transition: 0.25s
+}
+
+.underheader__btn:hover{
+    background: #57B8FF;
+}
+
+.underheader__right{
+    position: relative;
+}
+

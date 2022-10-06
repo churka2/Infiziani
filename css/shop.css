@@ -1,0 +1,99 @@
+.shop {
+    background: url(../img/shopback.png) no-repeat center/cover;
+}
+
+.shop__wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 136px;
+    padding-bottom: 130px;
+}
+
+.shop__slogan {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #57B8FF;
+    position: relative;
+}
+
+.shop__slogan::before {
+    content: "";
+    position: absolute;
+    background: url(../img/sloganfire.svg);
+    width: 32px;
+    height: 32px;
+    left: -40px;
+    top: -10px;
+}
+
+.shop__h2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 74px;
+    text-align: center;
+    color: white;
+    margin-top: 22px;
+}
+
+.shop__txt {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #DFDFDFCC;
+    margin-top: 39px;
+    margin-bottom: 61px;
+}
+
+.shop__cards {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 32px;
+}
+
+.shop__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 19px;
+    padding: 35px 36px 32px 80px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    flex-basis: 46%
+}
+
+.card__h3 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    color: white;
+    position: relative;
+}
+
+.card__h3::before{
+    content: "";
+    position: absolute;
+    background:url(../img/cardh3.svg);
+    width: 29px;
+    height: 29px;
+    left: -40px;
+    top: 7px;   
+}
+
+.card__txt {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #DFDFDFCC
+}
